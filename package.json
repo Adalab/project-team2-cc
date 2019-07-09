@@ -15,7 +15,6 @@
 		"gulp-notify": "*",
 		"gulp-plumber": "*",
 		"gulp-rename": "*",
-		"gulp-sass": "4.0.2",
 		"gulp-sourcemaps": "*",
 		"gulp-uglify-es": "^1.0.4",
 		"gulp-zip": "*",
@@ -31,5 +30,8 @@
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit"
+	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit",
+	"devDependencies": {
+		"gulp-sass": "^4.0.2"
+	}
 }

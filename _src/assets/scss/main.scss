@@ -140,7 +140,7 @@ body {
   /*hero*/
   .hero{
 	height: 441px;
-	background-image: url(../img/Adalabers-dracarys.jpg);
+	background-image: url(../../assets/images/Adalabers-dracarys.jpg);
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
@@ -158,14 +158,14 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.39;
-	color: rgba(255, 255, 255, 0.904)
+	color: rgba(255, 255, 255, 0.904);
 	font-family: 'Open Sans', sans-serif;  
   }
   @media all and (min-width:768px){
 	.hero{
 		height: 421px;
 		background-size: 100%;
-		background-image: url(../img/adalab-team-dracarys.png);
+		background-image: url(../../assets/images/adalab-team-dracarys.png);
 		
 	  }
 	.motto{
