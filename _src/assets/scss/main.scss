@@ -338,3 +338,18 @@ body {
 	margin-top:15px;
 	margin-bottom: 45px;
   } 
+  @media all and (min-width:768px){
+	.footer{
+	  flex-flow: column wrap;
+	  height: 170px;
+	  align-content: space-between;
+	  padding: 30px 45px 60px 45px;
+	  box-sizing: border-box;
+	}
+}
+  @media all and (min-width:1200px){
+	.footer{
+	  height: 161px;
+	  padding: 30px 138px 47px 138px;
+	}
+  }
