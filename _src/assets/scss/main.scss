@@ -123,9 +123,9 @@ body {
 			  text-decoration: none;
 			  color:white;
 			}
-  
+		}
 	  }
-   }
+   
   
   /*hero*/
   .hero{
@@ -148,7 +148,7 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.39;
-	color: rgba(255, 255, 255, 0.904)
+	color: rgba(255, 255, 255, 0.904);
 	font-family: 'Open Sans', sans-serif;  
   }
   @media all and (min-width:768px){
@@ -338,3 +338,15 @@ body {
 	margin-top:15px;
 	margin-bottom: 45px;
   } 
+
+
+  // CONTACT
+
+  .presentation{
+	  text-align: center;
+  }
+
+  .form{
+	  display: flex;
+	  flex-flow: column nowrap;
+  }
