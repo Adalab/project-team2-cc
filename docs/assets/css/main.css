@@ -123,27 +123,31 @@ a.anchor {
   color: white;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
+  width: 100vw;
   height: 441px;
-  background-image: url(../../assets/images/Adalabers-dracarys.jpg);
+  background-image: url(../../images/Dracarys_Adalab_home-mobile.jpg);
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  background-position: center;
   margin: 0;
   padding: 0;
 }
 
 .motto {
+  position: absolute;
+  top: 400px;
+  left: 10%;
+  z-index: 1;
   display: block;
-  position: relative;
-  margin: 0 auto;
   padding: 15px;
   width: 260px;
   background-color: #ffffff;
+  border-radius: 5px;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -356,15 +360,14 @@ h3 {
   }
 
   .hero {
-    height: 421px;
-    background-size: 100%;
-    background-image: url(../../assets/images/adalab-team-dracarys.png);
+    background-size: 100vw;
+    background-image: url(../../images/Dracarys_Adalab_home.jpg);
   }
 
   .motto {
-    margin-left: 46px;
-    margin-right: 281px;
-    height: 80px;
+    position: absolute;
+    top: 21%;
+    height: 60px;
     width: 441px;
     background-color: rgba(255, 255, 255, 0.8);
   }
@@ -389,9 +392,9 @@ h3 {
   }
 
   .motto {
-    margin-left: 138px;
-    margin-right: 488px;
-    height: 90px;
+    position: absolute;
+    top: 28%;
+    height: 60px;
     width: 574px;
   }
 
