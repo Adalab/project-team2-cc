@@ -1,0 +1,61 @@
+@import 'core/variables';
+ .footer{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	border-top:solid 1px lightgrey;
+	justify-content:center;
+	align-items: center;
+    margin-top: 45px;
+
+    @media all and (min-width:768px){
+        flex-flow: column wrap;
+        height: 170px;
+        align-content: space-between;
+        padding: 30px 45px 60px 45px;
+        box-sizing: border-box;
+    }
+    @media all and (min-width:1200px){
+        height: 161px;
+        padding: 30px 138px 47px 138px;
+    }
+  }
+  
+  .dracarys{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: $color-font-footer-copy;
+	margin: 0;
+	padding-top: 30px;
+  }
+  
+  .who-we-are{
+	display: block;
+	widows: 114px;;
+	opacity: 0.75;
+	font-size:14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: right;
+	text-align:center;
+	color: $color-font-footer;
+	margin-top: 20px;
+	margin-bottom: 30px;  
+  }
+  .who-we-are a {
+	text-decoration: none;
+	color: $color-font-footer;
+	font-weight: 700;
+  }
+  .list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+  }
+  .logo{
+	width: 115.9px;
+	height:auto;
+	margin-top:15px;
+	margin-bottom: 45px;
+  } 
