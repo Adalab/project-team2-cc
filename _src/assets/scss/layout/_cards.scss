@@ -24,24 +24,29 @@
 	justify-content: center;
 	font-size: 16px;
 	list-style: none;
+	
 	padding-inline-start: 0px;
+	// display: flex;
+    // justify-content: space-evenly;
+    // padding: 0px 100px;
+    // margin: 16px 0 32px 0;
 	
   }
   .social a {
 	text-decoration: none;
 	color: #099d8d;
   }
+  
   .social-icon {
 	display: inline-block;
 	line-height: 1.8;
 	padding: 6px;
   }
-  .mini {
-	width: 2px;
-	height: 2px;
-	background-color: gray;
-	position: relative;
-	top: 12px;
+  .icons::after {
+    content: "·";
+    color: #099d8d;
   }
-  
+  .icons:last-of-type::after {
+    content: " ";
+  }
   
