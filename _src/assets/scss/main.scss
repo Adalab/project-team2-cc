@@ -1,11 +1,9 @@
-// @import 'core/settings';
-// @import 'core/links';
 
-/*
-FUENTES:
-Open Sans
-Rubik
-*/
+/* main */
+.page{
+	margin: 0;
+	margin-top: 30px;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -14,81 +12,23 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-  }
-  
-  @import 'components/_typography.scss';
+}
 
-  .container {
+@import 'components/_typography.scss';
+
+.container {
 	margin: 0 15px;
-  }
-  a.anchor {
+}
+a.anchor {
 	display: block;
 	position: relative;
 	top: -120px;
 	visibility: hidden;
-  }
-  @import 'layout/header';
-  /* @import 'components/hero'; */
-  @import 'layout/team'; 
-  @import 'layout/cards';
-  @import 'layout/footer';
+}
+@import 'layout/header';
+@import 'components/hero';
+@import 'layout/team'; 
+@import 'layout/cards';
+@import 'layout/footer';
 
-  
-  /*hero*/
-  .hero{
-	height: 441px;
-	background-image: url(../../assets/images/Adalabers-dracarys.jpg);
-	background-size: cover;
-	display: flex;
-	align-items: flex-end;
-	margin: 0;
-	padding: 0;
-  }
-  .motto{
-	display:block;
-	position: relative;
-	margin:0 auto;
-	padding: 15px;
-	width: 260px;
-	background-color: #ffffff;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 1.39;
-	color: rgba(255, 255, 255, 0.904);
-	font-family: 'Open Sans', sans-serif;  
-  }
-  @media all and (min-width:768px){
-	.hero{
-		height: 421px;
-		background-size: 100%;
-		background-image: url(../../assets/images/adalab-team-dracarys.png);
-		
-	  }
-	.motto{
-		margin-left: 46px;
-		margin-right: 281px;
-		height: 80px;
-		width: 441px;
-		background-color: rgba(255, 255, 255, 0.8); 
-  
-	}
-  }
-  @media all and (min-width:1200px){
-	  .hero{
-		  height: 550px;
-	  }
-	  .motto{
-		  margin-left: 138px;
-		  margin-right: 488px;
-		  height: 90px;
-		  width: 574px;
-	  }
-	}
-  
-  /* main */
-  .page{
-	margin: 0;
-	margin-top: 30px;
-  }
-  
+
