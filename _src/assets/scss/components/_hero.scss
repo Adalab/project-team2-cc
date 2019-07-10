@@ -15,10 +15,10 @@
 
   }
   .motto{
-    /*position: absolute;
+    position: absolute;
     top:400px;
     left: 10%;
-    z-index: 1;*/
+    z-index: 1;
 	display:block;
 	padding: 15px;
 	width: 260px;
@@ -34,7 +34,7 @@
   @media all and (min-width:768px){
 	.hero{
         background-size: 100vw;
-		background-image: url(../../images/Dracarys_Adalab_home.jpg);
+		background-image: url(./images/hero-responsive.jpg);
 		
 	  }
 	.motto{
