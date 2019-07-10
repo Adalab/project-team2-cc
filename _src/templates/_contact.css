@@ -7,11 +7,10 @@
 
 
 .contact {
-    display:inline-block;
     text-align: center;
     color: #099d8d;
     height: 45px;
-    width: 127px;
+size: 24px;
     box-sizing: border-box;
 }
 
