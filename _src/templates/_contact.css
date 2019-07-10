@@ -1,1 +1,40 @@
-@import
+
+
+
+/*mobile first*/
+
+
+
+
+.contact {
+    display:inline-block;
+    text-align: center;
+    color: #099d8d;
+    height: 45px;
+    width: 127px;
+    box-sizing: border-box;
+}
+
+.text { display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+
+}
+
+.form {
+    text-align: left;
+ display: flex;
+ flex-flow: column nowrap;
+ margin: 15px;
+ background-color: aqua;
+}
+.label{
+    margin-top: 10px;
+}
+
+.btn{
+    color: $color-white;
+    background: $color-primary;
+    border-radius: 10%;
+}
