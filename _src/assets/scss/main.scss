@@ -1,4 +1,3 @@
-
 /* main */
 .page{
 	margin: 0;
@@ -14,7 +13,7 @@ body {
 	padding: 0;
 }
 
-@import 'components/_typography.scss';
+@import 'components/typography';
 
 .container {
 	margin: 0 15px;
