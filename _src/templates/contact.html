@@ -15,16 +15,16 @@
     
     <form class="form" method="POST" action="/signup">
         <label>Nombre completo *
-            <input type="text" name="name">
+            <input type="text" name="name" required>
         </label>
         <label>Email *
-            <input type="email" placeholder="nombre.apellidos@mail.com" name="email">
+            <input type="email" placeholder="nombre.apellidos@mail.com" name="email" required>
         </label>
         <label>Teléfono 
             <input type="tel" placeholder="Ej: 123456789" name="tel">
         </label>
         <label>Mensaje *
-            <input type="text" placeholder="¿Qué necesitas?" name="name">
+            <input type="text" placeholder="¿Qué necesitas?" name="name" required>
         </label>
         <input type="submit" name="enviar" value="ENVIAR">
     </form>
