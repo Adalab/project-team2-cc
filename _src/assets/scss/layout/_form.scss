@@ -1,16 +1,13 @@
 
-
+@import 'core/variables';
 
 /*mobile first*/
-
-
-
 
 .contact {
     text-align: center;
     color: #099d8d;
     height: 45px;
-size: 24px;
+    size: 24px;
     box-sizing: border-box;
 }
 
@@ -26,14 +23,18 @@ size: 24px;
  display: flex;
  flex-flow: column nowrap;
  margin: 15px;
- background-color: aqua;
 }
 .label{
     margin-top: 10px;
 }
 
+.required{
+    color:aqua;    
+}
+
 .btn{
-    color: $color-white;
+    color: $color-font-header;
     background: $color-primary;
     border-radius: 10%;
+    
 }
