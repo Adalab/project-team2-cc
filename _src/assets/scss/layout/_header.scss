@@ -47,12 +47,12 @@
   .nav{
 	  height: 45px;
 	  margin: 0;
-	  background-color:rgba(20, 217, 196, 0.95);
+	  background-color: $color-secundary;
   
 	  @media all and (min-width:768px){
 	  width: 50%;   
 	  height: 60px;
-	  background-color:rgba(9, 157, 141, 0.95);
+	  background-color: $color-primary;
 	  }
   
 	  .menu{
@@ -62,7 +62,7 @@
 		  display:flex;
 		  flex-direction: row;
 		  justify-content: space-evenly;
-		  color: white;
+		  color: $color-font-header;
 		  list-style: none;
 		  align-items: center;
   
