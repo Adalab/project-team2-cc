@@ -21,7 +21,16 @@ p {
   margin: 0;
 }
 
-.header {
+.container {
+  margin: 0 15px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}/*HEADER*/.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -97,6 +106,7 @@ p {
   color: white;
 }
 
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -108,11 +118,24 @@ p {
   background-image: url(../../images/Dracarys_Adalab_home-mobile.jpg);
   background-size: cover;
   background-position: center;
+=======
+.hero {
+  height: 441px;
+  background-image: url(../../assets/images/Adalabers-dracarys.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+>>>>>>> master
   margin: 0;
   padding: 0;
 }
 
 .motto {
+<<<<<<< HEAD
   position: absolute;
   top: 400px;
   left: 10%;
@@ -122,15 +145,29 @@ p {
   width: 260px;
   background-color: #ffffff;
   border-radius: 5px;
+=======
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  width: 260px;
+  background-color: #ffffff;
+>>>>>>> master
   text-align: center;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.39;
+<<<<<<< HEAD
   color: #000;
   font-family: 'Open Sans', sans-serif;
 }
 
 .page {
+=======
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}/* main */.page {
+>>>>>>> master
   margin: 0;
   margin-top: 30px;
 }/*content - strenghts and weakness */.team {
@@ -140,7 +177,11 @@ p {
 
 .team h2 {
   height: 45px;
+<<<<<<< HEAD
   font-family: 'Rubik', sans-serif;
+=======
+  font-family: "Rubik", sans-serif;
+>>>>>>> master
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
@@ -161,7 +202,11 @@ p {
 }
 
 .blocks h3 {
+<<<<<<< HEAD
   font-family: 'Rubik', sans-serif;
+=======
+  font-family: "Rubik", sans-serif;
+>>>>>>> master
   font-size: 22px;
   font-weight: 500;
 }
@@ -191,7 +236,11 @@ h3 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+<<<<<<< HEAD
   font-style: 'Rubik';
+=======
+  font-style: "Rubik";
+>>>>>>> master
   font-size: 22px;
   color: #099d8d;
 }/*content - articles/
@@ -246,9 +295,13 @@ h3 {
   background-color: gray;
   position: relative;
   top: 12px;
+<<<<<<< HEAD
 }
 
 .footer {
+=======
+}/*footer */.footer {
+>>>>>>> master
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +322,15 @@ h3 {
 
 .dracarys {
   font-size: 14px;
+<<<<<<< HEAD
   line-height: 20px;
+=======
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: normal;
+>>>>>>> master
   text-align: center;
   color: #b8b8b9;
   margin: 0;
@@ -309,6 +370,7 @@ h3 {
   margin-bottom: 45px;
 }
 
+<<<<<<< HEAD
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -424,6 +486,8 @@ a.anchor {
   visibility: hidden;
 }
 
+=======
+>>>>>>> master
 @media all and (min-width: 768px) {
   .header {
     -webkit-box-orient: horizontal;
@@ -448,6 +512,7 @@ a.anchor {
   }
 
   .hero {
+<<<<<<< HEAD
     background-size: 100vw;
     background-image: url(../../images/Dracarys_Adalab_home.jpg);
   }
@@ -492,6 +557,20 @@ a.anchor {
   .form .btn {
     margin-left: 400px;
   }
+=======
+    height: 421px;
+    background-size: 100%;
+    background-image: url(../../assets/images/adalab-team-dracarys.png);
+  }
+
+  .motto {
+    margin-left: 46px;
+    margin-right: 281px;
+    height: 80px;
+    width: 441px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+>>>>>>> master
 }
 
 @media all and (min-width: 1200px) {
@@ -500,6 +579,7 @@ a.anchor {
   }
 
   .motto {
+<<<<<<< HEAD
     position: absolute;
     top: 28%;
     height: 60px;
@@ -551,6 +631,13 @@ a.anchor {
   .form .textarea {
     width: 100%;
   }
+=======
+    margin-left: 138px;
+    margin-right: 488px;
+    height: 90px;
+    width: 574px;
+  }
+>>>>>>> master
 }
 
 /*# sourceMappingURL=main.css.map */

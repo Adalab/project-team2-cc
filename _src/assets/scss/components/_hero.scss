@@ -3,13 +3,16 @@
     padding:0;
 }
 .hero{
+	display: flex;
+	align-items: flex-end
     width: 100vw;
     height: 441px;
-	background-image: url(../../images/Dracarys_Adalab_home-mobile.jpg);
+	background-image: url(../images/hero-mobile.jpg);
     background-size: cover;
     background-position: center;
 	margin: 0;
 	padding: 0;
+
   }
   .motto{
     position: absolute;
@@ -25,13 +28,13 @@
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.39;
-	color:#000;
+	color: #000000;
 	font-family: 'Open Sans', sans-serif;  
   }
   @media all and (min-width:768px){
 	.hero{
         background-size: 100vw;
-		background-image: url(../../images/Dracarys_Adalab_home.jpg);
+		background-image: url(./images/hero-responsive.jpg);
 		
 	  }
 	.motto{
