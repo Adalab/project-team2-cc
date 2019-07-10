@@ -1,5 +1,1 @@
-'use strict';
-
-console.log('>> Ready :)');
-
-//# sourceMappingURL=main.js.map
+"use strict";console.log(">> Ready :)");
