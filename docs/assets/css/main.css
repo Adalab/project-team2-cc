@@ -458,7 +458,7 @@ a.anchor {
 
   .hero {
     background-size: 100vw;
-    background-image: url(./images/hero-responsive.jpg);
+    background-image: url(../images/hero-responsive.jpg);
   }
 
   .motto {
