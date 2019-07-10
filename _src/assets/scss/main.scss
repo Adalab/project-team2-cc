@@ -45,12 +45,14 @@ body {
 	top: -120px;
 	visibility: hidden;
   }
+  @import 'layout/header';
+  @import 'layout/footer'
+
   
- 
   /*hero*/
   .hero{
 	height: 441px;
-	background-image: url(../img/Adalabers-dracarys.jpg);
+	background-image: url(../../assets/images/Adalabers-dracarys.jpg);
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
@@ -68,14 +70,14 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.39;
-	color: rgba(255, 255, 255, 0.904);
+	color:#000;
 	font-family: 'Open Sans', sans-serif;  
   }
   @media all and (min-width:768px){
 	.hero{
 		height: 421px;
 		background-size: 100%;
-		background-image: url(../img/adalab-team-dracarys.png);
+		background-image: url(../../assets/images/adalab-team-dracarys.png);
 		
 	  }
 	.motto{
@@ -174,9 +176,7 @@ body {
 	align-content: center;  
 	margin: 30px 0 15px 0;
   }
-  .social-icons {
-	
-  }
+  
   .social {
 	color: #099d8d;
 	display: flex;
@@ -204,57 +204,3 @@ body {
   }
   
   
-  
-  /*footer */
-  .footer{
-	display:flex;
-	flex-direction: column;
-	width: 100%;
-	border-top:solid 1px lightgrey;
-	justify-content:center;
-	align-items: center;
-	margin-top: 45px;
-  }
-  
-  .dracarys{
-	font-size: 14px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 20px;
-	letter-spacing: normal;
-	text-align: center;
-	color:#b8b8b9;
-	margin: 0;
-	padding-top: 30px;
-  }
-  
-  .who-we-are{
-	display: block;
-	widows: 114px;;
-	opacity: 0.75;
-	font-size:14px;
-	font-weight: 700;
-	line-height: 20px;
-	letter-spacing: right;
-	text-align:center;
-	color: #54585a;
-	margin-top: 20px;
-	margin-bottom: 30px;  
-  }
-  .who-we-are a {
-	text-decoration: none;
-	color: #54585a;
-	font-weight: 700;
-  }
-  .list {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-  }
-  .logo{
-	width: 115.9px;
-	height:auto;
-	margin-top:15px;
-	margin-bottom: 45px;
-  } 
