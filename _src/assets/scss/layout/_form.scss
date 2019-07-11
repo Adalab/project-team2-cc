@@ -60,7 +60,7 @@ max-width: 290px;
 
     display: grid;
     grid-template-columns: 495px 160px;
-    grid-template-rows: 90px 90px 150px;
+    grid-template-rows: 90px 90px 200px;
     grid-column-gap: 45px;
     margin: 0;
     max-width: 700px;
@@ -122,5 +122,8 @@ max-width: 290px;
     color: aqua;
   }
 
+.btn{
+  cursor: pointer;
+}
 
 }
