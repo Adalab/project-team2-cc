@@ -12,7 +12,7 @@
     }
 }
 
-}
+
 @media all and (min-width:768px) {
     .wrapper {
         grid-template-columns: 1fr 2fr;
@@ -21,7 +21,7 @@
         justify-content: center;
         // align-items: center;
         margin: 0 20px;
-    }
+    
     &__img {
     
         grid-column-start: 1;
@@ -30,6 +30,7 @@
         grid-row-start: 1;
         grid-column: span 2;
     }
+}
     .wrapper__reverse {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
