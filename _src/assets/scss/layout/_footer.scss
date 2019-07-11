@@ -27,7 +27,6 @@
 	text-align: center;
 	color: $color-font-footer-copy;
 	margin: 0;
-	padding-top: 30px;
   }
   
   .who-we-are{
@@ -43,7 +42,7 @@
 	margin-top: 20px;
 	margin-bottom: 30px;  
   }
-  .who-we-are a {
+  .link {
 	text-decoration: none;
 	color: $color-font-footer;
 	font-weight: 700;
@@ -54,8 +53,5 @@
 	padding: 0px;
   }
   .logo{
-	width: 115.9px;
-	height:auto;
-	margin-top:15px;
-	margin-bottom: 45px;
+	width: 115px;
   } 
