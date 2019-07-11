@@ -122,19 +122,5 @@ max-width: 290px;
     color: aqua;
   }
 
-  .btn {
-    margin-top: 30px;
-    text-align: center;
-    color: $color-font-header;
-    background: $color-primary;
-    border-radius: 5px;
-    border: none;
-    padding: 15px;
-    width: 290px;
 
-
-    @media all and(min-width:768px) {
-      margin-left: 400px;
-    }
-  }
 }
