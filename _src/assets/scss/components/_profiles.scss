@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper, .wrapper__reverse {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
@@ -12,8 +12,25 @@
     }
 }
 
+}
 @media all and (min-width:768px) {
     .wrapper {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        margin: 0 20px;
+    }
+    &__img {
+    
+        grid-column-start: 1;
+    }
+    &__item {
+        grid-row-start: 1;
+        grid-column: span 2;
+    }
+    .wrapper__reverse {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
         display: flex;
