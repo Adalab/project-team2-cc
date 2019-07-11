@@ -68,7 +68,7 @@
     }
     .profile__h2 {
       display: block;
-      margin: 0 0 10px 0;
+      margin: 0 0 0 31px;
       text-align: left;
       }
       .reverse {
@@ -77,6 +77,7 @@
 
       .profile__description {
         margin: 0;
+        padding: 0;
         text-align: left;
         width: 445px;
       }
@@ -87,6 +88,7 @@
         // align-content: flex-start;
         font-size: 16px;
         list-style: none;
+        padding: 0 0 0 31px;
       }
     }
 
