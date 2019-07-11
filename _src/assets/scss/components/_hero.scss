@@ -28,19 +28,23 @@
   line-height: 1.39;
   color: #000000;
   font-family: "Open Sans", sans-serif;
-  transition: 0.5s;
+  /*transition: 0.5s ease;
 
   .motto:hover {
     background-color: black;
     color: greenyellow;
-  }
+  }*/
 }
 @media all and (min-width: 768px) {
   .hero {
+    display: flex;
+    align-content: flex-end;
     background-size: 100vw;
     background-image: url(../images/hero-responsive.jpg);
   }
   .motto {
+    left: 100px;
+    top:365px;
     height: 80px;
     width: 441px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -48,9 +52,13 @@
 }
 @media all and (min-width: 1200px) {
   .hero {
+    display: flex;
+    align-content: flex-end;
     height: 550px;
   }
   .motto {
+    left: 100px;
+    top:475px;
     height: 80px;
     width: 574px;
   }
