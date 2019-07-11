@@ -1,11 +1,13 @@
 /*content - articles/
   
   /*article*/
-  
-  .profiles {
-	font-weight: 500;
-	
+  .about_us {
+    width: 100%;
+    &__h1 {
+      font-weight: 500;
+    }
   }
+ 
   .profile__h2 {
 	display: block;
 	margin: 0 0 10px 0;
@@ -54,6 +56,9 @@
     content: " ";
   }
   @media all and (min-width:768px) {
+    .about_us {
+      width: 680px;
+    }
     .profile__img {
       width: 205px;
       height: 205px;

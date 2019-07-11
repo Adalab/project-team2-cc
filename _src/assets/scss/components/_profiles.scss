@@ -24,8 +24,10 @@
     .wrapper {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
-        margin: 0 20px;
+        margin: auto;
         padding-top: 20px;
+        width: 680px;
+
         
         &__img {
             // width: 100%;
@@ -45,6 +47,8 @@
     .wrapper__reverse {
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
+        width: 680px;
+        margin: auto;
         // margin: 0 20px;
         // padding-top: 20px;
         
@@ -65,6 +69,6 @@
 }
 @media all and (min-width:1200px) {
     .wrapper , .wrapper_reverse {
-        max-width: 750px;
+        width: 920px;
     }
 }
