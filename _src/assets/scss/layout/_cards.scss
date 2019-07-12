@@ -19,10 +19,27 @@
         border: solid 5px rgba(0, 0, 0, 0.08);
         align-content: center;  
         margin: auto;
+        
+        
+        
     }
     &__description {
         margin: 0;
     }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .social , .social__reverse{
     color: #099d8d;
@@ -58,6 +75,11 @@
         border: solid 5px rgba(0, 0, 0, 0.08);
         align-content: center;  
         margin: 30px 0 15px 0;
+        &:hover {         
+            filter:invert(100%);
+            animation: shake 0.5s; 
+            animation-iteration-count: infinite; 
+        }
     }
     
     .profile {
@@ -72,38 +94,38 @@
             margin: 0 15px 0 0;
         }
     }
-
-.profile__description {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    max-width: 445px;
     
-    &__reverse {
-        text-align: right;
-    }
-}
-.social {
-    color: #099d8d;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 16px;
-    list-style: none;
-    padding: 0 0 0 31px;
-    
-    &__reverse {
-        color: #099d8d;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 16px;
-        list-style: none;
-        padding: 0 31px 0 0;
-        & a {
-            text-decoration: none;
-            color: #099d8d;
+    .profile__description {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        max-width: 445px;
+        
+        &__reverse {
+            text-align: right;
         }
     }
-}
+    .social {
+        color: #099d8d;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 16px;
+        list-style: none;
+        padding: 0 0 0 31px;
+        
+        &__reverse {
+            color: #099d8d;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 16px;
+            list-style: none;
+            padding: 0 31px 0 0;
+            & a {
+                text-decoration: none;
+                color: #099d8d;
+            }
+        }
+    }
 }
 
 
@@ -113,4 +135,9 @@
         width: 278px;
         height: 278px;
     }
-}
+    .profile_img:hover {
+        filter:invert(100%);    
+        animation: shake 0.5s; 
+            animation-iteration-count: infinite; 
+        }
+    }
