@@ -19,10 +19,8 @@
         border: solid 5px rgba(0, 0, 0, 0.08);
         align-content: center;  
         margin: auto;
-        
-        
-        
     }
+
     &__description {
         margin: 0;
     }
@@ -41,15 +39,19 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-.social , .social__reverse{
+
+.social__icons__wrapper {
+    margin: auto;
+}
+
+.social , .social__reverse {
     color: #099d8d;
     display: flex;
     justify-content: center;
     font-size: 16px;
     list-style: none;
-    padding-inline-start: 0px;
 }
-.social a, .social__reverse a {
+.social a, .social__reverse a{
     text-decoration: none;
     color: #099d8d;
     
@@ -126,7 +128,15 @@
     content: " ";
 }
 @media all and (min-width:768px) {
-    
+    .about_us {
+        width: 100%;
+        margin: auto;
+        &__h1 {
+            font-weight: 500;
+            padding-top: 15px;
+        }
+    }
+
     .profile__img {
         width: 205px;
         height: 205px;
@@ -146,23 +156,15 @@
     }
     .profile__h2 {
         display: block;
-        margin: 0 0 0 15px;
-        text-align: left;
-        &__reverse {
-            text-align: right;
-            margin: 0 15px 0 0;
-        }
     }
     
     .profile__description {
         margin: 0;
         padding: 0;
-        text-align: left;
-        max-width: 445px;
-        
-        &__reverse {
-            text-align: right;
-        }
+    }
+    .social__icons__wrapper {
+        display: block;
+        width: 100%;
     }
     .social {
         color: #099d8d;
@@ -170,26 +172,26 @@
         justify-content: flex-start;
         font-size: 16px;
         list-style: none;
-        padding: 0 0 0 31px;
-        
+        padding: 0;
+
         &__reverse {
-            color: #099d8d;
-            display: flex;
             justify-content: flex-end;
-            font-size: 16px;
-            list-style: none;
-            padding: 0 31px 0 0;
-            & a {
-                text-decoration: none;
-                color: #099d8d;
-            }
         }
     }
+    
 }
 
 
 
 @media all and (min-width: 1200px){
+    .about_us {
+        width: 100%;
+        margin: auto;
+        &__h1 {
+            font-weight: 500;
+            padding-top: 15px;
+        }
+    }
     .profile__img {
         width: 278px;
         height: 278px;
@@ -198,10 +200,5 @@
         filter: grayscale(100%);    
         animation: shake 0.5s; 
         animation-iteration-count: infinite; 
-    }
-    .profile__description {
-        padding: 0;
-        text-align: left;
-        max-width: 440px;
     }
 }
