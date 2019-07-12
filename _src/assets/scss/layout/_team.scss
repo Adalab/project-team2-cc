@@ -61,23 +61,28 @@ h3 {
 
 	.team {
 	  background-color: #ffffff;
+	  margin: auto;
 	  margin-top: 80px;
 	  margin-bottom: 45px;
+	  max-width: 770px;
 	}
 	.blocks  {
 	  display: flex;
 	  flex-direction: row;
-	  justify-content: center;
+	  justify-content: space-around;
 	  font-size: 16px;
 	  background-color: rgba(0, 0, 0, 0.08);
+	  margin: auto;
 	}
 	.blocks-strenghts {
 	  margin-top: 45px;
 	  margin-bottom: 45px;
+	  width: 360px;
 	}
 	.blocks-weakness {
 	  margin-top: 45px;
 	  margin-bottom: 45px;
+	  width: 360px;
 	}
   }
 

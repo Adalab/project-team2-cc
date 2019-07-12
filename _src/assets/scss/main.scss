@@ -31,3 +31,8 @@ a.anchor {
   top: -120px;
   visibility: hidden;
 }
+@media all and (min-width: 768px) {
+  .container {
+	  margin: 0;
+  }
+}

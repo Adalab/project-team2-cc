@@ -26,6 +26,7 @@
         grid-template-rows: 1fr;
         margin: auto;
         padding-top: 20px;
+        grid-gap: 10px;
         width: 680px;
 
         
@@ -35,13 +36,14 @@
             grid-column-end: 2;
             grid-row-start: 1;
             grid-row-end: 2;
+            margin: 5px;
         }
         &__item {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 2;
-            margin-top: 30px;
+            margin: 10px 10px 10px 10px;
         }
     }
     .wrapper__reverse {
@@ -55,6 +57,7 @@
         &__img {
             grid-column: 2/3;
             grid-row: 1/2;
+            margin: 5px;
         }
         &__item {
             grid-column-start: 1;
@@ -62,7 +65,7 @@
             grid-row-start: 1;
             grid-row-end: 2;
             width: 440px;
-            margin-top: 30px;
+            margin: 30px 10px 10px 10px;
             text-align: right;
         }
     }
@@ -70,5 +73,10 @@
 @media all and (min-width:1200px) {
     .wrapper , .wrapper_reverse {
         width: 920px;
+    }
+    .wrapper {
+        &__item{
+            margin-right: 45px;
+        }
     }
 }
