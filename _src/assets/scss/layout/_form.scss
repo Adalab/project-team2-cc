@@ -102,8 +102,7 @@ max-width: 290px;
     }
   }
 
-  .textarea
-   {
+  .textarea  {
     height: 105px;
     width: 290px;
     padding: 10px;
@@ -126,4 +125,7 @@ max-width: 290px;
   cursor: pointer;
 }
 
+}
+.msg {
+  align-self: center;
 }
